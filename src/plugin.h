@@ -24,7 +24,7 @@
 #define REQUESTDONE_FUNC   CONNECTION_FUNC
 #define URIHANDLER_FUNC    CONNECTION_FUNC
 
-#define PLUGIN_DATA        size_t id
+#define PLUGIN_DATA        size_t id					/* 用于标识不同插件 */
 
 typedef struct {
 	size_t version;
