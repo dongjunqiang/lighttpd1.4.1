@@ -203,7 +203,7 @@ static int daemonize(void) {
 static server *server_init(void) {
 	int i;
 	FILE *frandom = NULL;
-
+	
 	server *srv = calloc(1, sizeof(*srv));
 	force_assert(srv);
 #define CLEAN(x) \

@@ -1,0 +1,187 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/renyu/workspace/opensc/lighttpd-1.4.41
+-- The C compiler identification is AppleClang 8.1.0.8020042
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/local/bin/pkg-config (found version "0.29.1") 
+-- Looking for include file sys/devpoll.h
+-- Looking for include file sys/devpoll.h - not found
+-- Looking for include file sys/epoll.h
+-- Looking for include file sys/epoll.h - not found
+-- Looking for include file sys/event.h
+-- Looking for include file sys/event.h - found
+-- Looking for include file sys/mman.h
+-- Looking for include file sys/mman.h - found
+-- Looking for include file sys/poll.h
+-- Looking for include file sys/poll.h - found
+-- Looking for include file sys/port.h
+-- Looking for include file sys/port.h - not found
+-- Looking for include file sys/prctl.h
+-- Looking for include file sys/prctl.h - not found
+-- Looking for include file sys/resource.h
+-- Looking for include file sys/resource.h - found
+-- Looking for include file sys/sendfile.h
+-- Looking for include file sys/sendfile.h - not found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/uio.h
+-- Looking for include file sys/uio.h - found
+-- Looking for include file sys/un.h
+-- Looking for include file sys/un.h - found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for include file getopt.h
+-- Looking for include file getopt.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - found
+-- Looking for include file pwd.h
+-- Looking for include file pwd.h - found
+-- Looking for include file stddef.h
+-- Looking for include file stddef.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file syslog.h
+-- Looking for include file syslog.h - found
+-- Looking for include file fastcgi.h
+-- Looking for include file fastcgi.h - not found
+-- Looking for include file fastcgi/fastcgi.h
+-- Looking for include file fastcgi/fastcgi.h - not found
+-- Looking for include file crypt.h
+-- Looking for include file crypt.h - not found
+-- Looking for crypt_r in crypt
+-- Looking for crypt_r in crypt - not found
+-- Looking for crypt in crypt
+-- Looking for crypt in crypt - not found
+-- Looking for crypt_r
+-- Looking for crypt_r - not found
+-- Looking for crypt
+-- Looking for crypt - found
+-- Looking for include file sys/inotify.h
+-- Looking for include file sys/inotify.h - not found
+-- Check size of socklen_t
+-- Check size of socklen_t - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Looking for chroot
+-- Looking for chroot - found
+-- Looking for epoll_ctl
+-- Looking for epoll_ctl - not found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for getuid
+-- Looking for getuid - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Looking for kqueue
+-- Looking for kqueue - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for lstat
+-- Looking for lstat - found
+-- Looking for madvise
+-- Looking for madvise - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for pathconf
+-- Looking for pathconf - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for port_create
+-- Looking for port_create - not found
+-- Looking for prctl
+-- Looking for prctl - not found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for posix_fadvise
+-- Looking for posix_fadvise - not found
+-- Looking for select
+-- Looking for select - found
+-- Looking for sendfile
+-- Looking for sendfile - found
+-- Looking for send_file
+-- Looking for send_file - not found
+-- Looking for sendfile64
+-- Looking for sendfile64 - not found
+-- Looking for sendfilev
+-- Looking for sendfilev - not found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for sigtimedwait
+-- Looking for sigtimedwait - not found
+-- Looking for strptime
+-- Looking for strptime - found
+-- Looking for syslog
+-- Looking for syslog - found
+-- Looking for writev
+-- Looking for writev - found
+-- Looking for inet_aton
+-- Looking for inet_aton - found
+-- Looking for issetugid
+-- Looking for issetugid - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for memset_s
+-- Looking for memset_s - found
+-- Looking for explicit_bzero
+-- Looking for explicit_bzero - not found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Performing Test HAVE_IPV6
+-- Performing Test HAVE_IPV6 - Success
+-- Performing Test HAVE_WEAK_SYMBOLS
+-- Performing Test HAVE_WEAK_SYMBOLS - Success
+-- Performing Test HAVE_STRUCT_TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM_GMTOFF - Success
+-- found pcre-config: /usr/local/bin/pcre-config
+-- found pcre at: LDFLAGS: -L/usr/local/Cellar/pcre/8.39/lib -lpcre CFLAGS: -I/usr/local/Cellar/pcre/8.39/include
+-- Looking for include file zlib.h
+-- Looking for include file zlib.h - found
+-- Looking for deflate in z
+-- Looking for deflate in z - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+adding property to lemon COMPILE_FLAGS: -Wno-cast-align
+adding property to lighttpd-angel COMPILE_FLAGS: -DSBIN_DIR=\"/usr/local/sbin\"
+adding property to lighttpd COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to mod_rewrite COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to mod_dirlisting COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to mod_redirect COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to mod_trigger_b4_dl COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to test_configfile COMPILE_FLAGS: -I/usr/local/Cellar/pcre/8.39/include
+adding property to mod_magnet COMPILE_FLAGS:
+adding property to mod_cml COMPILE_FLAGS:
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug

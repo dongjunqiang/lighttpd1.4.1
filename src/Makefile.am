@@ -276,6 +276,10 @@ mod_accesslog_la_SOURCES = mod_accesslog.c
 mod_accesslog_la_LDFLAGS = $(common_module_ldflags)
 mod_accesslog_la_LIBADD = $(common_libadd)
 
+lib_LTLIBRARIES += mod_luna.la
+mod_luna_la_SOURCES = mod_luna.c luna.c luna.h string_util.c string_util.h redis_util.cpp redis_util.h token_info.cpp token_info.h RedisClient.cpp RedisClient.hpp cJSON.c cJSON.h hredis.h hredis.cpp debug.cpp debug.h
+mod_luna_la_LDFLAGS = $(common_module_ldflags) -lssl -lm -lhiredis
+mod_luna_la_LIBADD = $(common_libadd)
 
 hdr = server.h base64.h buffer.h network.h log.h keyvalue.h \
 	response.h request.h fastcgi.h chunk.h \
@@ -303,6 +307,7 @@ lighttpd_SOURCES = \
   $(src) \
   mod_access.c \
   mod_accesslog.c \
+  mod_luna.c \
   mod_alias.c \
   mod_auth.c http_auth.c \
   mod_cgi.c \

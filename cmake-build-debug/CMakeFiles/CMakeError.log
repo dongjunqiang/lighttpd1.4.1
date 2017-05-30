@@ -1,0 +1,411 @@
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08f16/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_08f16.dir/build.make CMakeFiles/cmTC_08f16.dir/build
+Building C object CMakeFiles/cmTC_08f16.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_08f16.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_08f16.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_08f16/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/epoll.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0000/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c0000.dir/build.make CMakeFiles/cmTC_c0000.dir/build
+Building C object CMakeFiles/cmTC_c0000.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_c0000.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c0000.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_c0000/fast] Error 2
+
+Source:
+/* */
+#include <sys/epoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/port.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c82c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c82c.dir/build.make CMakeFiles/cmTC_1c82c.dir/build
+Building C object CMakeFiles/cmTC_1c82c.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1c82c.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/port.h' file not found
+#include <sys/port.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1c82c.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_1c82c/fast] Error 2
+
+Source:
+/* */
+#include <sys/port.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/prctl.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c76e9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c76e9.dir/build.make CMakeFiles/cmTC_c76e9.dir/build
+Building C object CMakeFiles/cmTC_c76e9.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_c76e9.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c76e9.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_c76e9/fast] Error 2
+
+Source:
+/* */
+#include <sys/prctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/sendfile.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e986f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e986f.dir/build.make CMakeFiles/cmTC_e986f.dir/build
+Building C object CMakeFiles/cmTC_e986f.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_e986f.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/sendfile.h' file not found
+#include <sys/sendfile.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e986f.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_e986f/fast] Error 2
+
+Source:
+/* */
+#include <sys/sendfile.h>
+
+
+int main(void){return 0;}
+
+Determining if files fastcgi.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b859/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b859.dir/build.make CMakeFiles/cmTC_7b859.dir/build
+Building C object CMakeFiles/cmTC_7b859.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7b859.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'fastcgi.h' file not found
+#include <fastcgi.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7b859.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_7b859/fast] Error 2
+
+Source:
+/* */
+#include <fastcgi.h>
+
+
+int main(void){return 0;}
+
+Determining if files fastcgi/fastcgi.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51a52/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51a52.dir/build.make CMakeFiles/cmTC_51a52.dir/build
+Building C object CMakeFiles/cmTC_51a52.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_51a52.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'fastcgi/fastcgi.h' file not found
+#include <fastcgi/fastcgi.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_51a52.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_51a52/fast] Error 2
+
+Source:
+/* */
+#include <fastcgi/fastcgi.h>
+
+
+int main(void){return 0;}
+
+Determining if files crypt.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41b09/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41b09.dir/build.make CMakeFiles/cmTC_41b09.dir/build
+Building C object CMakeFiles/cmTC_41b09.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_41b09.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'crypt.h' file not found
+#include <crypt.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_41b09.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_41b09/fast] Error 2
+
+Source:
+/* */
+#include <crypt.h>
+
+
+int main(void){return 0;}
+
+Determining if the function crypt_r exists in the crypt failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d21e2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d21e2.dir/build.make CMakeFiles/cmTC_d21e2.dir/build
+Building C object CMakeFiles/cmTC_d21e2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=crypt_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d21e2.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d21e2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d21e2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d21e2.dir/CheckFunctionExists.c.o  -o cmTC_d21e2  -lcrypt 
+ld: library not found for -lcrypt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d21e2] Error 1
+make: *** [cmTC_d21e2/fast] Error 2
+
+
+Determining if the function crypt exists in the crypt failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92071/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92071.dir/build.make CMakeFiles/cmTC_92071.dir/build
+Building C object CMakeFiles/cmTC_92071.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=crypt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_92071.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92071
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92071.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92071.dir/CheckFunctionExists.c.o  -o cmTC_92071  -lcrypt 
+ld: library not found for -lcrypt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_92071] Error 1
+make: *** [cmTC_92071/fast] Error 2
+
+
+Determining if the function crypt_r exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be2e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_be2e6.dir/build.make CMakeFiles/cmTC_be2e6.dir/build
+Building C object CMakeFiles/cmTC_be2e6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=crypt_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_be2e6.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be2e6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be2e6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_be2e6.dir/CheckFunctionExists.c.o  -o cmTC_be2e6  
+Undefined symbols for architecture x86_64:
+  "_crypt_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_be2e6] Error 1
+make: *** [cmTC_be2e6/fast] Error 2
+
+
+Determining if files sys/inotify.h exist failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7fd0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7fd0.dir/build.make CMakeFiles/cmTC_f7fd0.dir/build
+Building C object CMakeFiles/cmTC_f7fd0.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_f7fd0.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f7fd0.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_f7fd0/fast] Error 2
+
+Source:
+/* */
+#include <sys/inotify.h>
+
+
+int main(void){return 0;}
+
+Determining if the function epoll_ctl exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95f8b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_95f8b.dir/build.make CMakeFiles/cmTC_95f8b.dir/build
+Building C object CMakeFiles/cmTC_95f8b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=epoll_ctl -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_95f8b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95f8b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f8b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=epoll_ctl -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95f8b.dir/CheckFunctionExists.c.o  -o cmTC_95f8b  
+Undefined symbols for architecture x86_64:
+  "_epoll_ctl", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_95f8b] Error 1
+make: *** [cmTC_95f8b/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23bda/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_23bda.dir/build.make CMakeFiles/cmTC_23bda.dir/build
+Building C object CMakeFiles/cmTC_23bda.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=port_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_23bda.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23bda
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23bda.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=port_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_23bda.dir/CheckFunctionExists.c.o  -o cmTC_23bda  
+Undefined symbols for architecture x86_64:
+  "_port_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_23bda] Error 1
+make: *** [cmTC_23bda/fast] Error 2
+
+
+Determining if the function prctl exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3135a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3135a.dir/build.make CMakeFiles/cmTC_3135a.dir/build
+Building C object CMakeFiles/cmTC_3135a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=prctl -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_3135a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3135a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3135a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=prctl -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3135a.dir/CheckFunctionExists.c.o  -o cmTC_3135a  
+Undefined symbols for architecture x86_64:
+  "_prctl", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3135a] Error 1
+make: *** [cmTC_3135a/fast] Error 2
+
+
+Determining if the function posix_fadvise exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_838fb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_838fb.dir/build.make CMakeFiles/cmTC_838fb.dir/build
+Building C object CMakeFiles/cmTC_838fb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=posix_fadvise -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_838fb.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_838fb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_838fb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=posix_fadvise -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_838fb.dir/CheckFunctionExists.c.o  -o cmTC_838fb  
+Undefined symbols for architecture x86_64:
+  "_posix_fadvise", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_838fb] Error 1
+make: *** [cmTC_838fb/fast] Error 2
+
+
+Determining if the function send_file exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50851/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_50851.dir/build.make CMakeFiles/cmTC_50851.dir/build
+Building C object CMakeFiles/cmTC_50851.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=send_file -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_50851.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50851
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50851.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=send_file -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50851.dir/CheckFunctionExists.c.o  -o cmTC_50851  
+Undefined symbols for architecture x86_64:
+  "_send_file", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_50851] Error 1
+make: *** [cmTC_50851/fast] Error 2
+
+
+Determining if the function sendfile64 exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de6cd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_de6cd.dir/build.make CMakeFiles/cmTC_de6cd.dir/build
+Building C object CMakeFiles/cmTC_de6cd.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sendfile64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_de6cd.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de6cd
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de6cd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendfile64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de6cd.dir/CheckFunctionExists.c.o  -o cmTC_de6cd  
+Undefined symbols for architecture x86_64:
+  "_sendfile64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_de6cd] Error 1
+make: *** [cmTC_de6cd/fast] Error 2
+
+
+Determining if the function sendfilev exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1eba2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1eba2.dir/build.make CMakeFiles/cmTC_1eba2.dir/build
+Building C object CMakeFiles/cmTC_1eba2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sendfilev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1eba2.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1eba2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eba2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendfilev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1eba2.dir/CheckFunctionExists.c.o  -o cmTC_1eba2  
+Undefined symbols for architecture x86_64:
+  "_sendfilev", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1eba2] Error 1
+make: *** [cmTC_1eba2/fast] Error 2
+
+
+Determining if the function sigtimedwait exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a3c8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6a3c8.dir/build.make CMakeFiles/cmTC_6a3c8.dir/build
+Building C object CMakeFiles/cmTC_6a3c8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sigtimedwait -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_6a3c8.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a3c8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a3c8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigtimedwait -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6a3c8.dir/CheckFunctionExists.c.o  -o cmTC_6a3c8  
+Undefined symbols for architecture x86_64:
+  "_sigtimedwait", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6a3c8] Error 1
+make: *** [cmTC_6a3c8/fast] Error 2
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d5c5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3d5c5.dir/build.make CMakeFiles/cmTC_3d5c5.dir/build
+Building C object CMakeFiles/cmTC_3d5c5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_3d5c5.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d5c5
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d5c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d5c5.dir/CheckFunctionExists.c.o  -o cmTC_3d5c5  
+Undefined symbols for architecture x86_64:
+  "_explicit_bzero", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3d5c5] Error 1
+make: *** [cmTC_3d5c5/fast] Error 2
+
+

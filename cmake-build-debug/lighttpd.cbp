@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lighttpd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\cmake\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_configfile">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_configfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_configfile"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_configfile/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_configfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_configfile/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_webdav">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_webdav.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_webdav"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_webdav/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_webdav.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_webdav/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_usertrack">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_usertrack.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_usertrack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_usertrack/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_usertrack.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_usertrack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_setenv">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_setenv.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_setenv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_setenv/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_setenv.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_setenv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_scgi">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_scgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_scgi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_scgi/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_scgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_scgi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_rrdtool">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_rrdtool.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_rrdtool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_rrdtool/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_rrdtool.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_rrdtool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighttpd-angel">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lighttpd-angel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lighttpd-angel"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighttpd-angel/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lighttpd-angel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lighttpd-angel/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_cgi">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_cgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_cgi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_cgi/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_cgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_cgi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_rewrite">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_rewrite.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_rewrite"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_rewrite/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_rewrite.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_rewrite/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_buffer">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_buffer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_buffer/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_buffer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_mysql_vhost">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_mysql_vhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_mysql_vhost"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_mysql_vhost/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_mysql_vhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_mysql_vhost/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_magnet">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_magnet.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_magnet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_magnet/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_magnet.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_magnet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_flv_streaming">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_flv_streaming.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_flv_streaming"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_flv_streaming/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_flv_streaming.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_flv_streaming/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_simple_vhost">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_simple_vhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_simple_vhost"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_simple_vhost/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_simple_vhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_simple_vhost/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_proxy">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_proxy.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_proxy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_proxy/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_proxy.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_proxy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_secdownload">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_secdownload.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_secdownload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_secdownload/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_secdownload.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_secdownload/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_fastcgi">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_fastcgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_fastcgi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_fastcgi/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_fastcgi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_fastcgi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_evhost">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_evhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_evhost"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_evhost/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_evhost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_evhost/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_trigger_b4_dl">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_trigger_b4_dl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_trigger_b4_dl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_trigger_b4_dl/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_trigger_b4_dl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_trigger_b4_dl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_evasive">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_evasive.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_evasive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_evasive/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_evasive.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_evasive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_expire">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_expire.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_expire"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_expire/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_expire.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_expire/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_dirlisting">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_dirlisting.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_dirlisting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_dirlisting/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_dirlisting.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_dirlisting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_status">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_status.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_status"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_status/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_status.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_status/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_cml">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_cml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_cml"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_cml/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_cml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_cml/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_redirect">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_redirect.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_redirect"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_redirect/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_redirect.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_redirect/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_ssi">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_ssi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_ssi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_ssi/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_ssi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_ssi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighttpd">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lighttpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lighttpd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighttpd/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lighttpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lighttpd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_staticfile">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_staticfile.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_staticfile"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_staticfile/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_staticfile.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_staticfile/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_extforward">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_extforward.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_extforward"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_extforward/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_extforward.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_extforward/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_alias">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_alias.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_alias"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_alias/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_alias.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_alias/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_indexfile">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_indexfile.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_indexfile"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_indexfile/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_indexfile.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_indexfile/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_userdir">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_userdir.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_userdir"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_userdir/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_userdir.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_userdir/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_auth">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_auth.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_auth"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_auth/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_auth.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_auth/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_accesslog">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_accesslog.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_accesslog"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_accesslog/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_accesslog.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_accesslog/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_base64">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_base64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_base64"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_base64/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/test_base64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 test_base64/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_access">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_access.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_access"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_access/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_access.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_access/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_compress">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_compress.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_compress"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mod_compress/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_compress.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 mod_compress/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemon">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lemon"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemon/fast">
+				<Option output="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/lemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build"/>
+					<Add directory="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 lemon/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/configparser.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/configparser.c.rule">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_ssi_exprparser.c">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/build/mod_ssi_exprparser.c.rule">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/array.c">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/array.h">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/base64.c">
+			<Option target="lighttpd"/>
+			<Option target="test_base64"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/base64.h">
+			<Option target="lighttpd"/>
+			<Option target="test_base64"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/buffer.c">
+			<Option target="test_configfile"/>
+			<Option target="test_buffer"/>
+			<Option target="lighttpd"/>
+			<Option target="test_base64"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/buffer.h">
+			<Option target="test_configfile"/>
+			<Option target="test_buffer"/>
+			<Option target="lighttpd"/>
+			<Option target="test_base64"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/chunk.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/chunk.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/configfile-glue.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/configfile.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/configfile.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/connections-glue.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/connections.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/connections.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/crc32.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/crc32.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_array.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_config.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_count.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_fastcgi.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_integer.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/data_string.c">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/etag.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/etag.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_freebsd_kqueue.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_libev.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_linux_sysepoll.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_poll.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_select.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_solaris_devpoll.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/fdevent_solaris_port.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/http-header-glue.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/http_auth.c">
+			<Option target="mod_auth"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/http_auth.h">
+			<Option target="mod_auth"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/http_chunk.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/http_chunk.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/inet_ntop_cache.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/inet_ntop_cache.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/joblist.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/joblist.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/keyvalue.c">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/keyvalue.h">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/lemon.c">
+			<Option target="lemon"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/lighttpd-angel.c">
+			<Option target="lighttpd-angel"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/log.c">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/log.h">
+			<Option target="test_configfile"/>
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/md5.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/md5.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_access.c">
+			<Option target="mod_access"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_accesslog.c">
+			<Option target="mod_accesslog"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_alias.c">
+			<Option target="mod_alias"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_auth.c">
+			<Option target="mod_auth"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_auth.h">
+			<Option target="mod_auth"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cgi.c">
+			<Option target="mod_cgi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cml.c">
+			<Option target="mod_cml"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cml.h">
+			<Option target="mod_cml"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cml_funcs.c">
+			<Option target="mod_cml"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cml_funcs.h">
+			<Option target="mod_cml"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_cml_lua.c">
+			<Option target="mod_cml"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_compress.c">
+			<Option target="mod_compress"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_dirlisting.c">
+			<Option target="mod_dirlisting"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_evasive.c">
+			<Option target="mod_evasive"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_evhost.c">
+			<Option target="mod_evhost"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_expire.c">
+			<Option target="mod_expire"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_extforward.c">
+			<Option target="mod_extforward"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_fastcgi.c">
+			<Option target="mod_fastcgi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_flv_streaming.c">
+			<Option target="mod_flv_streaming"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_indexfile.c">
+			<Option target="mod_indexfile"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_magnet.c">
+			<Option target="mod_magnet"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_magnet_cache.c">
+			<Option target="mod_magnet"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_magnet_cache.h">
+			<Option target="mod_magnet"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_mysql_vhost.c">
+			<Option target="mod_mysql_vhost"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_proxy.c">
+			<Option target="mod_proxy"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_redirect.c">
+			<Option target="mod_redirect"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_rewrite.c">
+			<Option target="mod_rewrite"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_rrdtool.c">
+			<Option target="mod_rrdtool"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_scgi.c">
+			<Option target="mod_scgi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_secdownload.c">
+			<Option target="mod_secdownload"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_setenv.c">
+			<Option target="mod_setenv"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_simple_vhost.c">
+			<Option target="mod_simple_vhost"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_ssi.c">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_ssi.h">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_ssi_expr.c">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_ssi_expr.h">
+			<Option target="mod_ssi"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_staticfile.c">
+			<Option target="mod_staticfile"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_status.c">
+			<Option target="mod_status"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_trigger_b4_dl.c">
+			<Option target="mod_trigger_b4_dl"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_userdir.c">
+			<Option target="mod_userdir"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_usertrack.c">
+			<Option target="mod_usertrack"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/mod_webdav.c">
+			<Option target="mod_webdav"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_darwin_sendfile.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_freebsd_sendfile.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_linux_sendfile.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_openssl.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_solaris_sendfilev.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_write.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_write_mmap.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_write_no_mmap.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/network_writev.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/plugin.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/plugin.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/proc_open.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/proc_open.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/request.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/request.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/response.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/response.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/safe_memclear.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/safe_memclear.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/server.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/server.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/splaytree.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/splaytree.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/stat_cache.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/stat_cache.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/status_counter.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/status_counter.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/stream.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/stream.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/test_base64.c">
+			<Option target="test_base64"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/test_buffer.c">
+			<Option target="test_buffer"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/test_configfile.c">
+			<Option target="test_configfile"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/vector.c">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/vector.h">
+			<Option target="lighttpd"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/src/config.h.cmake">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake/LighttpdMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renyu/workspace/opensc/lighttpd-1.4.41/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

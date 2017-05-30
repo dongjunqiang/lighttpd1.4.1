@@ -1,0 +1,947 @@
+The system is: Darwin - 16.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18387/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18387.dir/build.make CMakeFiles/cmTC_18387.dir/build
+Building C object CMakeFiles/cmTC_18387.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_18387.dir/testCCompiler.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_18387
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18387.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18387.dir/testCCompiler.c.o  -o cmTC_18387  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d95f2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d95f2.dir/build.make CMakeFiles/cmTC_d95f2.dir/build
+Building C object CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d95f2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95f2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o  -o cmTC_d95f2   
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_d95f2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d95f2/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d95f2.dir/build.make CMakeFiles/cmTC_d95f2.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d95f2]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95f2.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o  -o cmTC_d95f2   ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_d95f2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d95f2] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d95f2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [to_library]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c9f6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0c9f6.dir/build.make CMakeFiles/cmTC_0c9f6.dir/build
+Building C object CMakeFiles/cmTC_0c9f6.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c11 -o CMakeFiles/cmTC_0c9f6.dir/feature_tests.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0c9f6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c9f6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0c9f6.dir/feature_tests.c.o  -o cmTC_0c9f6  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41b88/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41b88.dir/build.make CMakeFiles/cmTC_41b88.dir/build
+Building C object CMakeFiles/cmTC_41b88.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c99 -o CMakeFiles/cmTC_41b88.dir/feature_tests.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41b88
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41b88.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41b88.dir/feature_tests.c.o  -o cmTC_41b88  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31da9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_31da9.dir/build.make CMakeFiles/cmTC_31da9.dir/build
+Building C object CMakeFiles/cmTC_31da9.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c90 -o CMakeFiles/cmTC_31da9.dir/feature_tests.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_31da9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31da9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31da9.dir/feature_tests.c.o  -o cmTC_31da9  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f7c0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4f7c0.dir/build.make CMakeFiles/cmTC_4f7c0.dir/build
+Building C object CMakeFiles/cmTC_4f7c0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_4f7c0.dir/CheckIncludeFile.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4f7c0
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f7c0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f7c0.dir/CheckIncludeFile.c.o  -o cmTC_4f7c0  
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0263b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0263b.dir/build.make CMakeFiles/cmTC_0263b.dir/build
+Building C object CMakeFiles/cmTC_0263b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_0263b.dir/CheckSymbolExists.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0263b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0263b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0263b.dir/CheckSymbolExists.c.o  -o cmTC_0263b  
+
+File /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/event.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1851c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1851c.dir/build.make CMakeFiles/cmTC_1851c.dir/build
+Building C object CMakeFiles/cmTC_1851c.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1851c.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1851c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1851c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1851c.dir/CheckIncludeFiles.c.o  -o cmTC_1851c  
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2431/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d2431.dir/build.make CMakeFiles/cmTC_d2431.dir/build
+Building C object CMakeFiles/cmTC_d2431.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d2431.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d2431
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2431.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d2431.dir/CheckIncludeFiles.c.o  -o cmTC_d2431  
+
+
+Determining if files sys/poll.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0080b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0080b.dir/build.make CMakeFiles/cmTC_0080b.dir/build
+Building C object CMakeFiles/cmTC_0080b.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_0080b.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_0080b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0080b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0080b.dir/CheckIncludeFiles.c.o  -o cmTC_0080b  
+
+
+Determining if files sys/resource.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faf12/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_faf12.dir/build.make CMakeFiles/cmTC_faf12.dir/build
+Building C object CMakeFiles/cmTC_faf12.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_faf12.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_faf12
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf12.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_faf12.dir/CheckIncludeFiles.c.o  -o cmTC_faf12  
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffa01/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ffa01.dir/build.make CMakeFiles/cmTC_ffa01.dir/build
+Building C object CMakeFiles/cmTC_ffa01.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ffa01.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ffa01
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa01.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ffa01.dir/CheckIncludeFiles.c.o  -o cmTC_ffa01  
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d81e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7d81e.dir/build.make CMakeFiles/cmTC_7d81e.dir/build
+Building C object CMakeFiles/cmTC_7d81e.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7d81e.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7d81e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d81e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d81e.dir/CheckIncludeFiles.c.o  -o cmTC_7d81e  
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3a15/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b3a15.dir/build.make CMakeFiles/cmTC_b3a15.dir/build
+Building C object CMakeFiles/cmTC_b3a15.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_b3a15.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b3a15
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3a15.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b3a15.dir/CheckIncludeFiles.c.o  -o cmTC_b3a15  
+
+
+Determining if files sys/un.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfd99/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dfd99.dir/build.make CMakeFiles/cmTC_dfd99.dir/build
+Building C object CMakeFiles/cmTC_dfd99.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_dfd99.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dfd99
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfd99.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfd99.dir/CheckIncludeFiles.c.o  -o cmTC_dfd99  
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fde64/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fde64.dir/build.make CMakeFiles/cmTC_fde64.dir/build
+Building C object CMakeFiles/cmTC_fde64.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_fde64.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fde64
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde64.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fde64.dir/CheckIncludeFiles.c.o  -o cmTC_fde64  
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79ccb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_79ccb.dir/build.make CMakeFiles/cmTC_79ccb.dir/build
+Building C object CMakeFiles/cmTC_79ccb.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_79ccb.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_79ccb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79ccb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_79ccb.dir/CheckIncludeFiles.c.o  -o cmTC_79ccb  
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6184e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6184e.dir/build.make CMakeFiles/cmTC_6184e.dir/build
+Building C object CMakeFiles/cmTC_6184e.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_6184e.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6184e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6184e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6184e.dir/CheckIncludeFiles.c.o  -o cmTC_6184e  
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69a0c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69a0c.dir/build.make CMakeFiles/cmTC_69a0c.dir/build
+Building C object CMakeFiles/cmTC_69a0c.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_69a0c.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_69a0c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a0c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69a0c.dir/CheckIncludeFiles.c.o  -o cmTC_69a0c  
+
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f11f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f11f7.dir/build.make CMakeFiles/cmTC_f11f7.dir/build
+Building C object CMakeFiles/cmTC_f11f7.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_f11f7.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f11f7
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f11f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f11f7.dir/CheckIncludeFiles.c.o  -o cmTC_f11f7  
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa208/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fa208.dir/build.make CMakeFiles/cmTC_fa208.dir/build
+Building C object CMakeFiles/cmTC_fa208.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_fa208.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fa208
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa208.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fa208.dir/CheckIncludeFiles.c.o  -o cmTC_fa208  
+
+
+Determining if files poll.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7b7a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7b7a.dir/build.make CMakeFiles/cmTC_d7b7a.dir/build
+Building C object CMakeFiles/cmTC_d7b7a.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d7b7a.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d7b7a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7b7a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7b7a.dir/CheckIncludeFiles.c.o  -o cmTC_d7b7a  
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6b66/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6b66.dir/build.make CMakeFiles/cmTC_e6b66.dir/build
+Building C object CMakeFiles/cmTC_e6b66.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_e6b66.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e6b66
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b66.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6b66.dir/CheckIncludeFiles.c.o  -o cmTC_e6b66  
+
+
+Determining if files stddef.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55a25/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55a25.dir/build.make CMakeFiles/cmTC_55a25.dir/build
+Building C object CMakeFiles/cmTC_55a25.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_55a25.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_55a25
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a25.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55a25.dir/CheckIncludeFiles.c.o  -o cmTC_55a25  
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d33aa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d33aa.dir/build.make CMakeFiles/cmTC_d33aa.dir/build
+Building C object CMakeFiles/cmTC_d33aa.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d33aa.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d33aa
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d33aa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d33aa.dir/CheckIncludeFiles.c.o  -o cmTC_d33aa  
+
+
+Determining if files syslog.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2a7a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2a7a.dir/build.make CMakeFiles/cmTC_b2a7a.dir/build
+Building C object CMakeFiles/cmTC_b2a7a.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_b2a7a.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b2a7a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a7a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b2a7a.dir/CheckIncludeFiles.c.o  -o cmTC_b2a7a  
+
+
+Determining if the function crypt exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4fe9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4fe9.dir/build.make CMakeFiles/cmTC_f4fe9.dir/build
+Building C object CMakeFiles/cmTC_f4fe9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=crypt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_f4fe9.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4fe9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4fe9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4fe9.dir/CheckFunctionExists.c.o  -o cmTC_f4fe9  
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9455f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9455f.dir/build.make CMakeFiles/cmTC_9455f.dir/build
+Building C object CMakeFiles/cmTC_9455f.dir/HAVE_SOCKLEN_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9455f.dir/HAVE_SOCKLEN_T.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE_SOCKLEN_T.c
+Linking C executable cmTC_9455f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9455f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9455f.dir/HAVE_SOCKLEN_T.c.o  -o cmTC_9455f  
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64dd5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64dd5.dir/build.make CMakeFiles/cmTC_64dd5.dir/build
+Building C object CMakeFiles/cmTC_64dd5.dir/SIZEOF_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_64dd5.dir/SIZEOF_LONG.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_64dd5
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64dd5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_64dd5.dir/SIZEOF_LONG.c.o  -o cmTC_64dd5  
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7139b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7139b.dir/build.make CMakeFiles/cmTC_7139b.dir/build
+Building C object CMakeFiles/cmTC_7139b.dir/SIZEOF_OFF_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7139b.dir/SIZEOF_OFF_T.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_7139b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7139b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7139b.dir/SIZEOF_OFF_T.c.o  -o cmTC_7139b  
+
+
+Determining if the function chroot exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efaf3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_efaf3.dir/build.make CMakeFiles/cmTC_efaf3.dir/build
+Building C object CMakeFiles/cmTC_efaf3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=chroot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_efaf3.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efaf3
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efaf3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=chroot -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_efaf3.dir/CheckFunctionExists.c.o  -o cmTC_efaf3  
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61866/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_61866.dir/build.make CMakeFiles/cmTC_61866.dir/build
+Building C object CMakeFiles/cmTC_61866.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fork -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_61866.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61866
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61866.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_61866.dir/CheckFunctionExists.c.o  -o cmTC_61866  
+
+
+Determining if the function getrlimit exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_718a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_718a4.dir/build.make CMakeFiles/cmTC_718a4.dir/build
+Building C object CMakeFiles/cmTC_718a4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getrlimit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_718a4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_718a4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_718a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getrlimit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_718a4.dir/CheckFunctionExists.c.o  -o cmTC_718a4  
+
+
+Determining if the function getuid exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fe2a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7fe2a.dir/build.make CMakeFiles/cmTC_7fe2a.dir/build
+Building C object CMakeFiles/cmTC_7fe2a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getuid -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7fe2a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7fe2a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe2a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getuid -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7fe2a.dir/CheckFunctionExists.c.o  -o cmTC_7fe2a  
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4322/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e4322.dir/build.make CMakeFiles/cmTC_e4322.dir/build
+Building C object CMakeFiles/cmTC_e4322.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gmtime_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_e4322.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4322
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4322.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e4322.dir/CheckFunctionExists.c.o  -o cmTC_e4322  
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0931e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0931e.dir/build.make CMakeFiles/cmTC_0931e.dir/build
+Building C object CMakeFiles/cmTC_0931e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=inet_ntop -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_0931e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0931e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0931e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_ntop -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0931e.dir/CheckFunctionExists.c.o  -o cmTC_0931e  
+
+
+Determining if the function kqueue exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_caf87/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_caf87.dir/build.make CMakeFiles/cmTC_caf87.dir/build
+Building C object CMakeFiles/cmTC_caf87.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=kqueue -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_caf87.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_caf87
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caf87.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_caf87.dir/CheckFunctionExists.c.o  -o cmTC_caf87  
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74de5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_74de5.dir/build.make CMakeFiles/cmTC_74de5.dir/build
+Building C object CMakeFiles/cmTC_74de5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=localtime_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_74de5.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74de5
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74de5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74de5.dir/CheckFunctionExists.c.o  -o cmTC_74de5  
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9db1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e9db1.dir/build.make CMakeFiles/cmTC_e9db1.dir/build
+Building C object CMakeFiles/cmTC_e9db1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=lstat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_e9db1.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9db1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9db1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lstat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9db1.dir/CheckFunctionExists.c.o  -o cmTC_e9db1  
+
+
+Determining if the function madvise exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16f18/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_16f18.dir/build.make CMakeFiles/cmTC_16f18.dir/build
+Building C object CMakeFiles/cmTC_16f18.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=madvise -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_16f18.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16f18
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16f18.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=madvise -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16f18.dir/CheckFunctionExists.c.o  -o cmTC_16f18  
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f52a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1f52a.dir/build.make CMakeFiles/cmTC_1f52a.dir/build
+Building C object CMakeFiles/cmTC_1f52a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1f52a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_1f52a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f52a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f52a.dir/CheckFunctionExists.c.o  -o cmTC_1f52a  
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd2a5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd2a5.dir/build.make CMakeFiles/cmTC_cd2a5.dir/build
+Building C object CMakeFiles/cmTC_cd2a5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_cd2a5.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_cd2a5
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd2a5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd2a5.dir/CheckFunctionExists.c.o  -o cmTC_cd2a5  
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7f8d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7f8d.dir/build.make CMakeFiles/cmTC_d7f8d.dir/build
+Building C object CMakeFiles/cmTC_d7f8d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=mmap -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d7f8d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7f8d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7f8d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7f8d.dir/CheckFunctionExists.c.o  -o cmTC_d7f8d  
+
+
+Determining if the function pathconf exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00bdb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00bdb.dir/build.make CMakeFiles/cmTC_00bdb.dir/build
+Building C object CMakeFiles/cmTC_00bdb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pathconf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_00bdb.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00bdb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bdb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pathconf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_00bdb.dir/CheckFunctionExists.c.o  -o cmTC_00bdb  
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c54b9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c54b9.dir/build.make CMakeFiles/cmTC_c54b9.dir/build
+Building C object CMakeFiles/cmTC_c54b9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=poll -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_c54b9.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c54b9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c54b9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c54b9.dir/CheckFunctionExists.c.o  -o cmTC_c54b9  
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2901/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2901.dir/build.make CMakeFiles/cmTC_f2901.dir/build
+Building C object CMakeFiles/cmTC_f2901.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pread -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_f2901.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2901
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2901.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2901.dir/CheckFunctionExists.c.o  -o cmTC_f2901  
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a34f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a34f8.dir/build.make CMakeFiles/cmTC_a34f8.dir/build
+Building C object CMakeFiles/cmTC_a34f8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=select -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_a34f8.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a34f8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a34f8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=select -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a34f8.dir/CheckFunctionExists.c.o  -o cmTC_a34f8  
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2f1b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d2f1b.dir/build.make CMakeFiles/cmTC_d2f1b.dir/build
+Building C object CMakeFiles/cmTC_d2f1b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sendfile -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d2f1b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2f1b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2f1b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendfile -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d2f1b.dir/CheckFunctionExists.c.o  -o cmTC_d2f1b  
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06ca7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_06ca7.dir/build.make CMakeFiles/cmTC_06ca7.dir/build
+Building C object CMakeFiles/cmTC_06ca7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_06ca7.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06ca7
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06ca7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06ca7.dir/CheckFunctionExists.c.o  -o cmTC_06ca7  
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9dc60/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9dc60.dir/build.make CMakeFiles/cmTC_9dc60.dir/build
+Building C object CMakeFiles/cmTC_9dc60.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=signal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9dc60.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dc60
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc60.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=signal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9dc60.dir/CheckFunctionExists.c.o  -o cmTC_9dc60  
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9127f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9127f.dir/build.make CMakeFiles/cmTC_9127f.dir/build
+Building C object CMakeFiles/cmTC_9127f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strptime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9127f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9127f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9127f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9127f.dir/CheckFunctionExists.c.o  -o cmTC_9127f  
+
+
+Determining if the function syslog exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f8f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_91f8f.dir/build.make CMakeFiles/cmTC_91f8f.dir/build
+Building C object CMakeFiles/cmTC_91f8f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=syslog -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_91f8f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_91f8f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f8f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=syslog -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91f8f.dir/CheckFunctionExists.c.o  -o cmTC_91f8f  
+
+
+Determining if the function writev exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58a3d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58a3d.dir/build.make CMakeFiles/cmTC_58a3d.dir/build
+Building C object CMakeFiles/cmTC_58a3d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=writev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_58a3d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58a3d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58a3d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=writev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58a3d.dir/CheckFunctionExists.c.o  -o cmTC_58a3d  
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac21a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac21a.dir/build.make CMakeFiles/cmTC_ac21a.dir/build
+Building C object CMakeFiles/cmTC_ac21a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=inet_aton -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ac21a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac21a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac21a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac21a.dir/CheckFunctionExists.c.o  -o cmTC_ac21a  
+
+
+Determining if the function issetugid exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2691c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2691c.dir/build.make CMakeFiles/cmTC_2691c.dir/build
+Building C object CMakeFiles/cmTC_2691c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=issetugid -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_2691c.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2691c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2691c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=issetugid -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2691c.dir/CheckFunctionExists.c.o  -o cmTC_2691c  
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11168/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_11168.dir/build.make CMakeFiles/cmTC_11168.dir/build
+Building C object CMakeFiles/cmTC_11168.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=inet_pton -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_11168.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11168
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11168.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_pton -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11168.dir/CheckFunctionExists.c.o  -o cmTC_11168  
+
+
+Determining if the function memset_s exists passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5293/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5293.dir/build.make CMakeFiles/cmTC_e5293.dir/build
+Building C object CMakeFiles/cmTC_e5293.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memset_s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_e5293.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e5293
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5293.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset_s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5293.dir/CheckFunctionExists.c.o  -o cmTC_e5293  
+
+
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bba69/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bba69.dir/build.make CMakeFiles/cmTC_bba69.dir/build
+Building C object CMakeFiles/cmTC_bba69.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_bba69.dir/CheckSymbolExists.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bba69
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba69.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bba69.dir/CheckSymbolExists.c.o  -o cmTC_bba69  
+
+File /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_IPV6 succeeded with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac1f2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac1f2.dir/build.make CMakeFiles/cmTC_ac1f2.dir/build
+Building C object CMakeFiles/cmTC_ac1f2.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DHAVE_IPV6 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ac1f2.dir/src.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:73: warning: expression result unused [-Wunused-value]
+                struct sockaddr_in6 s; struct in6_addr t=in6addr_any; int i=AF_INET6; s; t.s6_addr[0] = 0;
+                                                                                      ^
+1 warning generated.
+Linking C executable cmTC_ac1f2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac1f2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_IPV6 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac1f2.dir/src.c.o  -o cmTC_ac1f2  
+
+Source file was:
+
+	#include <sys/types.h>
+	#include <sys/socket.h>
+	#include <netinet/in.h>
+
+	int main() {
+		struct sockaddr_in6 s; struct in6_addr t=in6addr_any; int i=AF_INET6; s; t.s6_addr[0] = 0;
+		return 0;
+	}
+Performing C SOURCE FILE Test HAVE_WEAK_SYMBOLS succeeded with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c64a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2c64a.dir/build.make CMakeFiles/cmTC_2c64a.dir/build
+Building C object CMakeFiles/cmTC_2c64a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DHAVE_WEAK_SYMBOLS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_2c64a.dir/src.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c64a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c64a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_WEAK_SYMBOLS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2c64a.dir/src.c.o  -o cmTC_2c64a  
+
+Source file was:
+
+	__attribute__((weak)) void __dummy(void *x) { }
+	int main() {
+		void *x;
+		__dummy(x);
+	}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TM_GMTOFF succeeded with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af853/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_af853.dir/build.make CMakeFiles/cmTC_af853.dir/build
+Building C object CMakeFiles/cmTC_af853.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DHAVE_STRUCT_TM_GMTOFF -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_af853.dir/src.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_af853
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af853.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_STRUCT_TM_GMTOFF -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af853.dir/src.c.o  -o cmTC_af853  
+
+Source file was:
+
+	#include <time.h>
+	int main(void) {
+		struct tm t;
+		t.tm_gmtoff = 0;
+		return 0;
+	}
+	
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d5d3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1d5d3.dir/build.make CMakeFiles/cmTC_1d5d3.dir/build
+Building C object CMakeFiles/cmTC_1d5d3.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -I/usr/local/Cellar/pcre/8.39/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1d5d3.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1d5d3
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d5d3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -I/usr/local/Cellar/pcre/8.39/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d5d3.dir/CheckIncludeFiles.c.o  -o cmTC_1d5d3  
+
+
+Determining if the function deflate exists in the z passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_218b1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_218b1.dir/build.make CMakeFiles/cmTC_218b1.dir/build
+Building C object CMakeFiles/cmTC_218b1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -I/usr/local/Cellar/pcre/8.39/include -DCHECK_FUNCTION_EXISTS=deflate -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_218b1.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_218b1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_218b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -I/usr/local/Cellar/pcre/8.39/include -DCHECK_FUNCTION_EXISTS=deflate -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_218b1.dir/CheckFunctionExists.c.o  -o cmTC_218b1  -lz 
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_180bf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_180bf.dir/build.make CMakeFiles/cmTC_180bf.dir/build
+Building C object CMakeFiles/cmTC_180bf.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -I/usr/local/Cellar/pcre/8.39/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_180bf.dir/CheckIncludeFiles.c.o   -c /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_180bf
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_180bf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -I/usr/local/Cellar/pcre/8.39/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_180bf.dir/CheckIncludeFiles.c.o  -o cmTC_180bf  
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/renyu/workspace/opensc/lighttpd-1.4.41/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a2b9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a2b9.dir/build.make CMakeFiles/cmTC_3a2b9.dir/build
+Building C object CMakeFiles/cmTC_3a2b9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -I/usr/local/Cellar/pcre/8.39/include -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_3a2b9.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a2b9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a2b9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -I/usr/local/Cellar/pcre/8.39/include -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a2b9.dir/CheckFunctionExists.c.o  -o cmTC_3a2b9  -ldl 
+
+
